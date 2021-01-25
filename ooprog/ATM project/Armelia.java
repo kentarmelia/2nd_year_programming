@@ -52,7 +52,7 @@ class ATMGUI extends JFrame implements ActionListener
          p2.setVisible(true);
       //===============PANEL 3 ==================
          p3 = new JPanel();
-         p3.setLayout(new GridLayout(3, 1));
+         p3.setLayout(new GridLayout(3, 2));
          login.setPreferredSize(new Dimension(1,1));
          p3.add(login);
          p3.add(openAcc);
